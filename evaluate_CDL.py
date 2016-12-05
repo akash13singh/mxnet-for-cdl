@@ -5,7 +5,7 @@ import numpy as np
 
 
 def cal_rec(p, cut):
-    R_true = read_user('data/cf-test-1-users.dat')
+    R_true = read_user('data/test_P1_1.dat')
     dir_save = 'cdl' + str(p)
     U = np.mat(np.loadtxt(dir_save + '/final-U.dat'))
     V = np.mat(np.loadtxt(dir_save + '/final-V.dat'))
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     M_high = 300
     cal_rec(p, M_high)
     dir_save = 'cdl%d' % p
-    R_test = read_user('data/cf-test-1-users.dat')
+    R_test = read_user('data/test_P1_1.dat')
     fp = open(dir_save + '/rec-list.dat')
     lines = fp.readlines()
 
