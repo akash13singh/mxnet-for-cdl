@@ -1,11 +1,9 @@
 *checkpoints*
-*.dat
 *.demo
 *.pyc
 *.numpy
 *.symbol
 *.json
-*.dat
 *.log
 *checkpoint*
 *.demo
@@ -23,3 +21,4 @@ ml-100k/
 *.gz
 *.idea/
 *.pyc
+*.xml
