@@ -1,5 +1,5 @@
 # COLLABORATIVE DEEP LEARNING
-Novel approach combining Deep Learning with Collaborative Filtering for Recommender Systes
+Novel approach combining Deep Learning with Collaborative Filtering for Recommender Systems
 
 #Usage Notes 
 First run cdl.py. In this code relu activation has been used instead of sigmoid and the code does not use pretraining
