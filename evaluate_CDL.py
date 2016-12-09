@@ -38,7 +38,7 @@ if __name__ == '__main__':
     M_high = 300
     cal_rec(p, M_high)
     dir_save = 'cdl%d' % p
-    R_test = read_user('data/test_P1_1.dat')
+    R_test = read_user('data/test_P1_2.dat')
     fp = open(dir_save + '/rec-list.dat')
     lines = fp.readlines()
 
